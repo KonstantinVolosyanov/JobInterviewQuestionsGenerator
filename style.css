@@ -126,10 +126,7 @@ select {
 }
 
 #copyrights {
-    color: #43a1b5;
-    background-color: #142f35;
-    margin: 0;
-    width: auto;
-    height: auto;
-    text-align: center;
+  color: #F2F3F5;
+  margin-top: 40px;
+  bottom: 20px;
 }
