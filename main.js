@@ -75,7 +75,7 @@
         loader.style.visibility = "visible";
 
         // API key:
-        const apiKey = "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";
+        const apiKey = "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";
 
         // URL:
         const url = "https://api.openai.com/v1/completions";
