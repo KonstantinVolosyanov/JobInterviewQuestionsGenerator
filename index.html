@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Interview Questions Generator</title>
+    <link rel="icon" href="./assets/images/favicon.ico.png">
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+</head>
+
+<body onsubmit="getResponse()">
+
+    <header>
+        <h1>Job Interview Questions Generator</h1>
+        <h3>Powered by OpenAI</h3>
+    </header>
+
+    <br>
+
+    <div class="loader"></div>
+
+    <form class="options">
+
+        <input placeholder="Enter Programming Language..." type="text" id="languageBox" required />
+
+        <select id="difficultyBox" required>
+            <option value="" selected disabled>Choose Difficulty Level...</option>
+            <option value="beginner">Beginner</option>
+            <option value="medium">Medium</option>
+            <option value="expert">Expert</option>
+        </select>
+
+        <input placeholder="How many questions..." type="number" id="countBox" required />
+
+        <br>
+        <br>
+
+        <button id="generateButton">Generate Questions</button>
+    </form>
+
+    <button id="printButton" onclick="printDiv()">Print</button>
+
+    <div class="loader"></div>
+
+    <div id="responseDiv">
+
+        <p id="fillTheForm">Fill the form above and press Generate Questions...</p>
+
+    </div>
+
+    <p id="copyrights">Created by Volosyanov Konstantin © 2023 / All rights reserved</p>
+
+</body>
+
+</html>
